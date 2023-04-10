@@ -1,0 +1,132 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(37, 36, 44) url("../img/fon.jpg") no-repeat center top;
+}
+
+.img4, .img3, .img2, .img1 {
+  width: 90%;
+  height: 300px;
+  border-radius: 1rem;
+  margin: 1.5rem auto;
+}
+
+.contatiner {
+  max-width: 1400px;
+  min-width: 400px;
+  width: 75%;
+  background: rgb(70, 69, 69);
+  margin: 0 auto;
+  position: relative;
+  -moz-columns: 3 450px;
+       columns: 3 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-text {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 1rem;
+  width: 10rem;
+  display: block;
+  margin: 2rem auto;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 30%;
+}
+
+.colum {
+  -moz-columns: 2 300px;
+       columns: 2 300px;
+  padding: 1rem;
+}
+.colum > div {
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+
+.column2-border {
+  background: linear-gradient(15deg, rgba(192, 42, 42, 0.911), rgba(11, 216, 120, 0.911));
+  padding: 10px;
+  border-radius: 40px;
+}
+
+.column2 {
+  padding: 1rem;
+  background: rgb(70, 69, 69);
+  border-radius: 40px;
+  -moz-columns: 5 14rem;
+       columns: 5 14rem;
+}
+.column2 > div {
+  box-shadow: 0.5rem 0.5rem 5rem rgba(49, 3, 158, 0.719);
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+
+.img1 {
+  background: url("../img/hand.gif") no-repeat center;
+  background-size: 80%;
+}
+
+.img2 {
+  background: url("../img/forest&sea.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.img3 {
+  background: url("../img/serval1.png") no-repeat center;
+  background-size: 110%;
+}
+
+.img4 {
+  background: rgb(255, 255, 255) url("../img/serval2.png") no-repeat center;
+  background-size: cover;
+}
+
+.img-grad5, .img-grad4, .img-grad3, .img-grad2, .img-grad1 {
+  margin: 1rem;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+
+.img-grad1 {
+  background: repeating-linear-gradient(15deg, rgba(23, 17, 43, 0.5) 10%, rgba(141, 82, 82, 0.5) 20%), repeating-linear-gradient(85deg, rgba(14, 63, 155, 0.5) 10%, rgba(24, 216, 241, 0.5) 20%);
+  background-size: 30% 45%;
+}
+
+.img-grad2 {
+  background-image: repeating-conic-gradient(at 60% 75%, rgba(51, 16, 211, 0.5137254902), rgba(252, 227, 0, 0.521) 2%, rgba(228, 23, 228, 0.5) 5%, rgba(45, 226, 45, 0.4941176471) 8%, rgba(51, 16, 211, 0.5137254902) 10%), conic-gradient(rgba(170, 9, 143, 0.7725490196) 10%, rgba(252, 0, 0, 0.404) 40%, rgba(80, 252, 0, 0.767) 80%, rgba(221, 80, 80, 0.6156862745)), repeating-conic-gradient(at 25% 15%, rgba(255, 255, 255, 0.7725490196) 5%, rgba(55, 0, 255, 0.76) 12%, rgba(255, 0, 0, 0.603) 18%, rgba(255, 255, 255, 0.3960784314));
+  background-size: 10% 15%;
+}
+
+.img-grad3 {
+  background-image: repeating-conic-gradient(at 60% 75%, rgba(255, 255, 255, 0.7725490196) 5%, rgba(55, 0, 255, 0.76) 12%, rgba(255, 0, 0, 0.603) 18%, rgba(255, 255, 255, 0.3960784314));
+  background-size: 10% 15%;
+}
+
+.img-grad4 {
+  background: repeating-radial-gradient(rgba(18, 101, 226, 0.5), rgba(201, 97, 6, 0.596) 8%, rgba(10, 89, 209, 0.514) 10%), repeating-radial-gradient(rgba(229, 11, 236, 0.253), rgba(10, 211, 60, 0.658) 15%, rgba(219, 14, 14, 0.349) 25%);
+  background-size: 50px 50px;
+}
+
+.img-grad5 {
+  background-image: repeating-linear-gradient(45deg, rgba(38, 1, 170, 0.5) 10%, rgba(184, 13, 13, 0.5) 20%), repeating-linear-gradient(135deg, rgba(14, 155, 56, 0.5) 10%, rgba(184, 172, 13, 0.5) 20%);
+}
+
+img {
+  width: 80%;
+  margin: 1rem auto;
+  border-radius: 10%;
+}
+
+.column {
+  display: flex;
+  flex: 0 1 auto;
+  padding: 1rem;
+}
+.column img {
+  width: 33%;
+}

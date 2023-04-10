@@ -1,0 +1,150 @@
+body {
+  background: rgb(248, 249, 250);
+  font-family: sans-serif;
+  font-size: 0.875rem;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1600px;
+  width: 90%;
+  min-width: 600px;
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+  display: flex;
+  position: relative;
+}
+
+.link-container {
+  position: fixed;
+  top: 30px;
+}
+.link-container ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+.link-container ul li {
+  display: block;
+  height: 2rem;
+}
+.link-container ul li a {
+  color: rgb(51, 102, 204);
+}
+.link-container ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  margin-left: 20%;
+  width: 60%;
+  min-width: 800px;
+}
+.main-content .container-img {
+  float: right;
+  width: 250px;
+}
+.main-content .container-img .img-title {
+  padding: 0.2rem;
+  background-color: rgb(248, 249, 250);
+  border: 1px solid rgb(200, 204, 209);
+  margin: 0 0 20px 20px;
+}
+.main-content .container-img .img-title p {
+  margin: 0;
+  font-size: 0.75rem;
+  color: #000;
+}
+.main-content .container-img .img-title img {
+  max-width: 100%;
+  border: 1px solid rgb(200, 204, 209);
+}
+.main-content h1,
+.main-content h2 {
+  font-family: "Linux Libertine", "Georgia", "Times", serif;
+  line-height: 1.3;
+  font-weight: normal;
+  display: block;
+  border-bottom: 1px solid rgb(107, 103, 103);
+}
+.main-content h1 {
+  font-size: 1.75rem;
+}
+.main-content h2 {
+  font-size: 1.375rem;
+}
+.main-content table {
+  color: #202122;
+  padding: 0.2rem 0.4rem;
+  border-collapse: collapse;
+  border: 1px solid rgb(119, 119, 119);
+}
+.main-content table th {
+  border: 1px solid rgb(162, 169, 177);
+}
+.main-content table thead {
+  background-color: rgb(234, 236, 240);
+}
+.main-content table tbody {
+  background-color: rgb(248, 249, 250);
+}
+.main-content table tbody th {
+  font-weight: normal;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.959);
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  overflow-X: hidden;
+  opacity: 0;
+  visibility: hidden;
+}
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}
+.popup .popup_area {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  cursor: context-menu;
+}
+.popup .popup_content {
+  min-height: 100%;
+  align-items: center;
+  justify-items: center;
+}
+.popup .popup_content .popup_body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 0 20%;
+}
+.popup .popup_content .popup_close {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+}
+.popup .popup_content .popup_close a {
+  color: #fff;
+  font-family: cursive;
+  font-size: 3rem;
+}
+.popup .popup_content img {
+  max-width: 100%;
+}

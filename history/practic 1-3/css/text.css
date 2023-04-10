@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;500;700&display=swap');
+
+body {
+    font-family: 'Dosis', serif;
+}
+
+.content {
+    color: rgb(163, 141, 78);
+    font-size: 1.75rem;
+}
+
+.header a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(243, 238, 0);
+}
+
+.header a:hover {
+    text-shadow: 0.15rem 0.15rem 0.5rem rgb(240, 183, 29);
+}
+
+.left_content_button button {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(243, 38, 200);
+}
+
+.left_content_button button:hover {
+    text-shadow: 0.25rem 0.25rem 1rem rgb(230, 8, 93);
+}
+
+.post h1 {
+    font-size: 2.5rem;
+    color: rgb(253, 188, 130);
+}
+
+.popup_close {
+    font-size: 2rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.popup_title {
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(12, 67, 87);
+}
+
+.popup_text {
+    font-size: 2rem;
+    color: rgb(253, 248, 24);
+}
+
+.gradient_info p {
+    font-family: 'Times New Roman', serif;
+    color: rgb(14, 14, 14);
+    font-size: 1.5rem;
+
+}
+
+.btn {
+    color: rgb(131, 14, 177);
+    font-size: 1.5rem;
+
+}
+
+.btn-close {
+    text-transform: uppercase;
+    font-family: 'Dosis', serif;
+    font-size: 1.5rem;
+}
+
+.btn_copy {
+    font-family: 'Dosis', serif;
+    font-size: 1.4rem;
+}
+
+.btn_copy:hover {
+    color: blue;
+}
+
+.btn_copy:active {
+    color: red;
+}
+
+#tab_text p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    color: rgb(14, 14, 14);
+    letter-spacing: 1px;
+}
+
+#tab_text .btn-close {
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(233, 8, 8);
+}
+
+#tab_text .btn-close:hover {
+    text-shadow: 0 -0.1rem 0.8rem rgb(255, 0, 0);
+}

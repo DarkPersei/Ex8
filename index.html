@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Btn</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/javascript.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <ul class="btn-nav-container">
+            <li class="nav-btn"><a href="history/practic 1-3/index.html" target="_blank">pratic 1-3</a></li>
+            <li class="nav-btn"><a href="history/practic 4/index.html" target="_blank">pratic 4</a></li>
+            <li class="nav-btn"><a href="history/practic 5/index.html" target="_blank">pratic 5</a></li>
+            <li class="nav-btn"><a href="history/practic 7/index.html" target="_blank">pratic 7</a></li>
+        </ul>
+        <ul class="container-event-btn">
+            <li><button class="btn" onclick="openTab(event,'Tab')">tab</button></li>
+            <li><button class="btn" onclick="openPopup('Popup')">popup</button></li>
+            <li><button class="btn" onclick="Messag()">Messag</button> </li>
+        </ul>
+        <div id="Tab" class="tab_content">
+            <button onclick="closeTab(event,'Tab')" class="close-btn">X</button>
+            <p>
+                Ви надиснули на кнопку tab i вiдкрили tab-сontent.
+            </p>
+        </div>
+        <div id="Popup" class="popup">
+            <div class="popup-content">
+                <button class="close-btn" onclick="closePopup('Popup')">X</button>
+                <p>Ви натиснули на кнопку popup i вiдкрився popup.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

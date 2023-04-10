@@ -1,0 +1,59 @@
+body {
+    background: url('../img/fon.jpg') no-repeat top center rgb(27, 27, 27);
+}
+
+.container {
+    padding: 1rem 0;
+    background: rgb(24, 25, 32);
+    max-width: 1200px;
+    width: 80%;
+    min-width: 600px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.btn-nav-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tab_content {
+    display: none;
+    height: 100px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(39, 39, 61);
+    border-radius: 20px;
+
+    p {
+        padding: 1rem;
+    }
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .popup-content {
+        background-color: rgb(255, 251, 251);
+        padding: 20px;
+        width: 80%;
+        max-width: 600px;
+        margin: 50px auto;
+        border-radius: 15px;
+    }
+}
+
+.container-event-btn {
+    display: flex;
+    flex: 1 1 33%;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>my site</title>
+    <link href="css/style1.css" rel="stylesheet" />
+    <link href="css/text.css" rel="stylesheet" />
+    <script>
+        function clock() {
+            let now = new Date();
+            let hour = now.getHours();
+            let min = now.getMinutes();
+            let sec = now.getSeconds();
+            field.font = "45px Electrolize";
+            field.clearRect(0, 0, 250, 250)
+            field.fillText(hour + ":" + min + ":" + sec, 10, 45);
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="invisible_block"></div>
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li class="nav_button"><a href="index.html">Home</a></li>
+                <li class="nav_button"><a href="history.html">History</a></li>
+                <li class="nav_button"><a href="#clock">How Time</a></li>
+                <li class="nav_button"><a href="#info">All info</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="post">
+                <h1>Update 25.02.2022 </h1>
+                <p>
+                    Перероблено з заминою css на scss.
+                </p>
+            </div>
+            <div class="post">
+                <h1>Update 24.02.2022 </h1>
+                <p>
+                    Перероблено та додованно адаптив.
+                </p>
+            </div>
+            <div class="post">
+                <h1>Pac-Man</h1>
+                <p>
+                    The beauty of the sunset was obscured by the industrial cranes. She learned that water bottles are
+                    no longer just to hold liquid, but they're
+                    also status symbols. Poison ivy grew through the fence they said was impenetrable. Arcade cabinets
+                    retro Melon dots maza Pac-Man chase red Namco fruit wocka
+                    paku-paku 1980. Patricia loves the sound of nails strongly pressed against the chalkboard. Clyde
+                    blue enemies flash dots wocka maze monsters ghosts red chaser.
+                    She was disgusted he couldn’t tell the difference between lemonade and limeade. I hear that Nancy is
+                    very pretty. Don't put peanut butter on the dog's nose.
+                    He was willing to find the depths of the rabbit hole in order to be with her. As she walked along
+                    the street and looked in the gutter, she realized facemasks had become the new cigarette butts.
+                    Orange fickle blue guy maze chase. The old apple revels in its authority. Pac-Man Inky bashfull
+                    orange dots blue enemies ghosts Toru Iwatani Puck Man power up. Ghosts dots cherry Blinky Pac-Man
+                    Power Pellets fruit. Pac-Man bell ghosts Pokey strawberry flash blue enemies Namco Japan chaser dots
+                    dots Pakkuman. Flying fish few by the space station. Fluffy pink unicorns are a popular status
+                    symbol among macho men. He found his art never progressed when he literally used his sweat and
+                    tears. Ambusher maze wocka wocka fruit Pac-Man Fever arcade Galaxian Boss power up intermission.
+                    Pac-Man Namco Toru Iwatani Pac-Man Fever maze dots. I think I will buy the red car, or I will lease
+                    the blue one. The external scars tell only part of the story. Shadow dots strawberry Pac-Man
+                    Midway chaser Pinky kill screen. Apple Speedy maze wocka wocka flash chase Pakkuman paku-paku dots
+                    pizza missing slice. She had the gift of being able to paint songs. Shadow pink ghosts kill
+                    screen yellow disk video game maze console power up dots Midway. He had a hidden stash underneath
+                    the floorboards in the back room of the house. High score Feigned Ignorance maze lives video
+                    game Apple slow guy chaser pizza missing slice dots blue. He hated that he loved what she hated
+                    about hate. Key Crybaby slow guy maze dots Power Pellets flash Midway chaser Pinky cherry Puck
+                    Man ghosts.
+                </p>
+            </div>
+            <div class="post">
+                <h1>Remember we die </h1>
+                <p>
+                    Remember we die<br />
+                    But you're still alive <br />
+                    So don't let go <br />
+                    'Cause it's the only thing you know <br />
+                    There's plenty of time <br />
+                    To see the other side
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="clock" class="popup">
+        <a href="#invisible-block" class="popup_area"></a>
+        <div class="popup_body">
+            <div class="popup_content" id="popup_clock">
+                <a href="#invisible-block" class="popup_close"> X</a>
+                <div class="popup_title">Clock</div>
+                <div class="popup_text">
+                    <canvas id="field" width="250" height="100"></canvas>
+                    <script>
+                        let canvas = document.getElementById("field");
+                        let field = canvas.getContext("2d");
+                        setInterval(clock, 100);
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="info" class="popup">
+        <a href="#invisible-block" class="popup_area"></a>
+        <div class="popup_body">
+            <div class="popup_content" id="popup_clock">
+                <a href="#invisible-block" class="popup_close"> X</a>
+                <div class="popup_title">Info</div>
+                <div class="popup_text">
+                    <p>
+                        те як працюе css/html свойство дививлюся i розбирався на цьому сайтi: <br />
+                        <a href="https://www.w3schools.com/">
+                            <img src="css/img/scrin1.png" alt="scrin1" />
+                            https://www.w3schools.com/
+                        </a>
+                    </p>
+                    <p>
+                        а з тим як реализувати за допомогою css рiзнi красивi дрiбници дивлюсь переважно у нього:
+                        <a href="https://www.youtube.com/@FreelancerLifeStyle/videos">
+                            <img src="css/img/scrin2.png" alt="scrin2" />
+                        </a>
+                    </p>
+                    <p>Iнформацiю про iсторiю обновлений можна знайти в Histori</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

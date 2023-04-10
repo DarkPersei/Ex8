@@ -1,0 +1,51 @@
+.nav-btn {
+    position: relative;
+    margin: 1rem;
+    border: 2px solid rgb(255, 187, 0);
+    border-radius: 50%;
+    top: -3px;
+    width: 30%;
+    min-width: 150 px;
+    box-shadow: 0 5px 10px rgb(41, 0, 226);
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 212, 255, 1) 50%, rgba(0, 65, 213, 1) 100%);
+    transition-property: top, box-shadow, text-shadow;
+    transition: 300ms;
+    ;
+
+    &:hover {
+        top: 0px;
+        animation: rgn 0.2s linear;
+        box-shadow: 0 0 rgb(41, 0, 226);
+        animation: name duration timing-function delay iteration-count direction fill-mode;
+        background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(0, 212, 255, 1) 75%, rgba(0, 104, 255, 1) 100%);
+    }
+
+    a {
+        height: 100%;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.close-btn {
+    position: relative;
+    border: none;
+    background: local;
+    float: right;
+    cursor: pointer;
+}
+
+.btn {
+    min-width: 100px;
+    width: 20%;
+    padding: 5px;
+    border-radius: 10%;
+    background: rgb(130, 105, 243);
+
+    &:hover {
+        cursor: pointer;
+        background: rgb(159, 138, 255);
+    }
+
+}

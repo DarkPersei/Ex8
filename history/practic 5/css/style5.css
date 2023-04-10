@@ -1,0 +1,165 @@
+body {
+  background: rgb(43, 42, 42) url("../img/fon.jpg") no-repeat center top;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background: rgb(21, 21, 37);
+  max-width: 1200px;
+  width: 85%;
+  margin: 0 auto;
+  color: #fff;
+  padding: 1rem;
+}
+
+.head-button {
+  list-style: none;
+  display: flex;
+  flex: 0 1 20%;
+  flex-direction: row;
+  padding: 0;
+}
+.head-button li {
+  width: 20%;
+  font-size: 2rem;
+  padding: 0.5rem;
+  display: block;
+  background: #c2023f;
+  border: 3px solid #9bac04;
+  border-radius: 20px;
+  text-align: center;
+  margin: 0 0.5rem;
+}
+.head-button li:hover {
+  background: #800028;
+  border: 3px solid #788503;
+  text-shadow: 0 0 1.5rem #fff;
+  cursor: pointer;
+}
+
+.number-lorem-list {
+  font-size: 1.5rem;
+}
+.number-lorem-list li {
+  margin: 1rem 0;
+  border-bottom: 3px solid rgb(2, 156, 14);
+}
+.number-lorem-list li:hover {
+  -webkit-text-decoration: rgb(0, 200, 226) underline;
+          text-decoration: rgb(0, 200, 226) underline;
+  text-shadow: 0 0 1rem #fff;
+}
+
+.element-list {
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.element-list li {
+  margin: 1rem 0;
+  background-color: #0c0363;
+  border-radius: 30px;
+  padding: 1rem;
+}
+.element-list li li {
+  background: #800028;
+}
+.element-list li li li {
+  background: #009e35;
+}
+
+.icon-list {
+  font-size: 1.2rem;
+  list-style: none;
+  padding: 0;
+}
+.icon-list li {
+  margin: 0.8rem;
+}
+.icon-list li::before {
+  font-size: 2rem;
+  margin: 1rem;
+  color: #fd0303;
+}
+.icon-list li:last-child {
+  border-bottom: 0.2rem solid #fc7d34;
+}
+.icon-list .blue::before {
+  color: #0c0363;
+  background: #fdcf03;
+}
+
+.list-dec1 {
+  font-size: 1.4rem;
+  list-style: upper-roman;
+  background-color: #fc7d34;
+}
+
+.list-dec2 {
+  font-size: 1.8rem;
+  list-style: lower-greek;
+  background-color: #009e35;
+}
+
+.list-dec3 {
+  font-size: 1.3rem;
+  list-style: circle;
+  background-color: #0c0363;
+}
+
+.lorem-list {
+  font-size: 1.6rem;
+  list-style: armenian;
+}
+.lorem-list li {
+  padding: 1rem;
+  background-color: #d19c0b;
+  margin: 1rem;
+  border-radius: 45px;
+}
+
+.list {
+  font-size: 1.8rem;
+  list-style: upper-alpha;
+}
+.list li {
+  background: #078a19;
+  margin: 1rem;
+  border-radius: 45px;
+  padding: 1rem;
+}
+.list .sub-list {
+  list-style: georgian;
+}
+.list .sub-list li {
+  background: #4e0061;
+}
+.list .sub-list .sub-sub-list {
+  list-style: decimal-leading-zero;
+}
+.list .sub-list .sub-sub-list li {
+  background: #054e79;
+}
+
+.close-link {
+  font-size: 2.8rem;
+  list-style: url("../icon/close.png");
+}
+
+dl {
+  border-radius: 30px;
+  border: 3px solid #068d8f;
+  padding: 1rem;
+}
+dl dt {
+  font-size: 2.5rem;
+}
+dl dd {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 4px solid #1eb300;
+}
+dl dd:last-child {
+  border-bottom: none;
+}
